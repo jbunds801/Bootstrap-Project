@@ -16,17 +16,19 @@ want to made them into a grid and assign a certain amount of columns to them but
 different way other than d-flex justify-content-... 
 
 I was able to just paste and copy some stuff from the lessons too, like I did for the nav bar and then I just 
-made some adjustments to it, as well as the form. I did mess around with the default settings on all of the
-containers for stuff like padding and margins and font sizes. Some things I got from W3Schools too, and the 
-buttons I just copied from the Bootstrap website, since those are pretty simple. A lot of things on the Bootstrap 
-website didn't make sense to me. 
+made some adjustments to it, as well as the form. I also wanted to make the text for the nav bar bigger on bigger
+screens, and I did mess around with the default settings on some of the other containers for stuff like padding 
+and margins and font sizes. Some things I got from W3Schools too, and the buttons I just copied from the Bootstrap 
+website, since those are pretty simple. A lot of things on the Bootstrap website didn't make sense to me. 
 
 The AI helped me with things like getting images centered but it again still didn't provide very good solutions
 to some problems I had, maybe I'm just not specific enough in what I am asking for. I tried to have it help me 
 find a way to have the header stretch beyond it's actual size on larger screens but it didn't work. I had to 
-just go into photoshop and make it bigger myself, I made it to 2200px width which should covers almost all of 
-the screen on my desktop. I was able to do searches online for more specific things, like white text on the 
-nav bar and even how to change the shape of the circle, but I liked the default shape of the circle anyways! 
+just go into photoshop and make it bigger myself, I made it to 2200px width which covers almost all of the screen 
+on my desktop. I was able to do searches online for more specific things, like white text on the nav bar and even 
+how to change the shape of the circle, but I liked the default shape of the circle anyways! I did have to 
+reference a couple different places to come up with a good solution for the responsiveness of the circle, it 
+wasn't keeping it's shape at first.
 
 I wasn't able to find anything about changing the font style using just Bootstrap and no CSS, so I figured that
 is for a later lesson or a project where we will be implementing all the things!
@@ -41,7 +43,8 @@ on different browsers. Firefox didn't show any message at all, just showing a dr
 ins, and on Chrome and Edge it showed a little flag that just said that the field was required. So I didn't know
 how to get around that, but I the solution I found on W3Schools showed the .was-validated which left the red text
 and the red border, but then I was able to find some help doing a search to add .d-block with the .invalid-feeback
-to only show the red text and not the border so I was happy with that.
+to only show the red text and not the border so I was happy with that. One thing I'm not sure about though is is 
+"required" required after the id? It didn't seem consistent with all the examples I found.
 
 Overall though I think it turned out pretty good!
 
